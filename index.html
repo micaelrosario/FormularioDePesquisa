@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Cabeça-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Forms TI</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <!--Corpo-->
+  <body>
+    <h1 id="title">Formulário de Pesquisa em Tecnologia</h1>
+    <p id="description">Esse formulário vai receber dados de universitários da área de TI </p>
+    <form id="survey-form">
+        <label id="name-label">Nome:<input id="name" type="text" placeholder="Nome"></label>
+        <label id="email-label">Email:<input id="email" type="email" placeholder="Email"></label>
+        <label id="number-label">Idade:<input id="number" type="number" min="12" max="100" placeholder="Idade"></label>
+        <label id="formacao" for="formacao">Formação Acadêmica: 
+            <select name="cursos" id="dropdown">
+                <option value="">Nenhum</option>
+                <option value="">Ensino Médio Completo</option>
+                <option value="">Ensino Médio Imcompleto</option>
+                <option value="">Médio Técnico Completo</option>
+                <option value="">Médio Técnico Imcompleto</option>
+                <option value="">Ensino Superior Completo</option>
+                <option value="">Ensino Superior Imcompleto</option>
+                <option value="">Mestrado Completo</option>
+                <option value="">Mestrado Imcompleto</option>
+                <option value="">Doutorado Completo</option>
+                <option value="">Doutorado Imcompleto</option>
+            </select>
+        </label>
+        <label id="cursos" > Curso
+            <label for="none"></label><input class="inline" type="radio">Nenhum 
+            <label for="ads"></label><input class="inline" type="radio">Análise e Desenvolvimento de Sistemas
+            <label for="comput"></label><input type="radio">Licenciatura da Computação
+            <label for="matemat"></label><input type="radio">Licenciatura de Matemática
+            <label for="other"></label><input type="radio">Outro
+        </label>
+    </form>
+  </body>
+</html>
