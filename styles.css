@@ -1,21 +1,54 @@
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
+}
+p{
+    font: 20px verdana;
     text-align: center;
 }
 
-#name-label, #email-label, #number-label, #formacao{
+.align{
     display: block;
-    margin-top: 30px;
+    
 }
 body{
     margin: 40px;
     
 }
 
+#survey-form{
+    /*border: 3px solid #d9e0e8;*/
+    background-color: #062340 ;
+    margin-left:250px;
+    margin-right:250px;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
 
 .inline{
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
+}
+
+.fundo{
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(imagem/fundo.jpg);
+}
+
+.branco{
+    color: white;
+    text-align: center;
+}
+.align{
+    margin-bottom: 20px;
+    
+    
+}
+label{
+    display: block;
 }
