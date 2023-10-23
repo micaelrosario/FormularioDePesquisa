@@ -6,48 +6,46 @@ p{
     font: 20px verdana;
     text-align: center;
 }
-
-.align{
-    display: block;
-    
-}
 body{
     margin: 40px;
     
 }
 
+.verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
 #survey-form{
-    /*border: 3px solid #d9e0e8;*/
-    background-color: #062340 ;
+    border: 3px solid #d9e0e8;
+    background-color: rgba(2, 31, 46, 95%) ;
     margin-left:250px;
     margin-right:250px;
-    color: white;
+    color: rgb(255, 230, 230);
     padding: 40px;
     border-radius: 8px;
-    margin-top: 40px;
+    margin-top: 30px;
+    border-color: rgb(1, 13, 21);
 }
 
-.inline{
-    width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
-}
-
+/*Fundo do site*/
 .fundo{
     background-size: cover;
     background-position: inherit;
     background-repeat: no-repeat;
     background-image: url(imagem/fundo.jpg);
 }
-
+/*Cor do Texto*/
 .branco{
     color: white;
     text-align: center;
 }
+/*Alinhamento*/
 .align{
-    margin-bottom: 20px;
-    
-    
+    margin-bottom: 10px;
+}
+.caixa{
+    display: block;
 }
 label{
     display: block;

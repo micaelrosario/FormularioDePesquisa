@@ -12,10 +12,18 @@
     <h1 id="title" class="branco">Formulário de Pesquisa em Tecnologia</h1>
     <p id="description" class="branco">Esse formulário vai receber dados de universitários da área de TI </p>
     <form id="survey-form">
-        <div class="">
-            <label id="name-label" class="align">Nome:<input id="name" class="align" type="text" placeholder="Enter yourNome"></label>
-            <label id="email-label" class="align">Email:<input id="email" type="email" placeholder="Enter your Email"></label>
-            <label id="number-label">Idade:<input id="number" type="number" min="12" max="100" placeholder="Idade"></label>
+        <div class="form-group">
+            <label id="name-label" class="align verdana">Nome:</label>
+            <input id="name" class="align caixa" type="text" placeholder="Digite o seu nome" required>
+        </div>
+            <label id="email-label" class="align">Email:</label>
+            <input id="email" type="email" placeholder="Digite o seu email">
+        </div>
+        <div>
+            <label id="number-label">Idade:</label>
+            <input id="number" type="number" min="12" max="100" placeholder="Idade">
+        </div>
+        <div>
             <label id="formacao" for="formacao">Formação Acadêmica: 
                 <select name="cursos" id="dropdown">
                     <option value="">Nenhum</option>
@@ -31,13 +39,16 @@
                     <option value="">Doutorado Imcompleto</option>
                 </select>
             </label>
-            <label id="cursos" > Curso: 
-                <label for="none"></label><input  type="radio" checked>Nenhum 
-                <label for="ads"></label><input  type="radio">Análise e Desenvolvimento de Sistemas
-                <label for="comput"></label><input type="radio">Licenciatura da Computação
-                <label for="matemat"></label><input type="radio">Licenciatura de Matemática
-                <label for="other"></label><input type="radio">Outro
-            </label>
+        </div>
+        <div>
+            <label id="cursos" > Selecione seu curso: 
+        </div>
+        <div>
+            <label for="none"></label><input  type="radio" checked>Nenhum 
+            <label for="ads"></label><input  type="radio">Análise e Desenvolvimento de Sistemas
+            <label for="comput"></label><input type="radio">Licenciatura da Computação
+            <label for="matemat"></label><input type="radio">Licenciatura de Matemática
+            <label for="other"></label><input type="radio">Outro</label>
         </div>
     </form>
   </body>
