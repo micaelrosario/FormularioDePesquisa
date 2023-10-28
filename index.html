@@ -13,19 +13,19 @@
     <p id="description" class="branco">Esse formulário vai receber dados de universitários da área de TI </p>
     <form id="survey-form">
         <div class="form-group">
-            <label id="name-label" class="align verdana">Nome:</label>
-            <input id="name" class="align caixa tamanho" type="text" placeholder="Digite o seu nome" required>
+            <label id="name-label" class=" topico">Nome:</label>
+            <input id="name" class=" tamanho" type="text" placeholder="Digite o seu nome" required>
         </div>
-            <label id="email-label" class="align">Email:</label>
-            <input id="email" class="align caixa tamanho" type="email" placeholder="Digite o seu email">
-        </div>
-        <div>
-            <label id="number-label">Idade:</label>
-            <input id="number" class="align caixa tamanho" type="number" min="12" max="100" placeholder="Idade">
+            <label id="email-label" class="topico">Email:</label>
+            <input id="email" class=" tamanho" type="email" placeholder="Digite o seu email">
         </div>
         <div>
-            <label id="formacao" for="formacao">Formação Acadêmica: 
-                <select name="cursos" id="dropdown">
+            <label id="number-label" class="topico">Idade:</label>
+            <input id="number" class=" tamanho" type="number" min="12" max="100" placeholder="Idade">
+        </div>
+        <div>
+            <label id="formacao" class="topico" for="formacao">Formação Acadêmica: 
+                <select name="cursos" id="dropdown" >
                     <option value="">Nenhum</option>
                     <option value="">Ensino Médio Completo</option>
                     <option value="">Ensino Médio Imcompleto</option>
@@ -40,15 +40,19 @@
                 </select>
             </label>
         </div>
-        <div>
-            <label id="cursos" > Selecione seu curso: 
+        <div class="">
+            <label id="cursos" class="topico"> Selecione seu curso: 
         </div>
-        <div>
-            <label for="none"></label><input  type="radio" checked>Nenhum 
-            <label for="ads"></label><input  type="radio">Análise e Desenvolvimento de Sistemas
-            <label for="comput"></label><input type="radio">Licenciatura da Computação
-            <label for="matemat"></label><input type="radio">Licenciatura de Matemática
-            <label for="other"></label><input type="radio">Outro</label>
+        <div class="topico">
+            <label for="none" class="topico" ></label><input  type="radio" name="grupo" checked>Nenhum 
+            <label for="ads" class="topico"></label><input  type="radio" name="grupo">Análise e Desenvolvimento de Sistemas
+            <label for="comput" class="topico"></label><input type="radio" name="grupo">Licenciatura da Computação
+            <label for="matemat" class="topico"></label><input type="radio" name="grupo">Licenciatura de Matemática
+            <label for="other" class="topico"></label><input type="radio" name="grupo">Outro</label>
+        </div>
+        <div class="espaco">
+            <label class="topico">Comentários ou sugestões?</label>
+            <textarea name="" id="" cols="90" rows="10" placeholder="Digite o seu comentário aqui"></textarea>
         </div>
     </form>
   </body>

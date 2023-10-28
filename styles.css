@@ -11,9 +11,10 @@ body{
     
 }
 
-.verdana{
+.topico{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 #survey-form{
@@ -34,28 +35,22 @@ body{
     background-position: inherit;
     background-repeat: no-repeat;
     background-image: url(imagem/fundo.jpg);
+    back
 }
 /*Cor do Texto*/
 .branco{
     color: white;
     text-align: center;
 }
-/*Alinhamento*/
-.align{
-    margin-bottom: 10px;
-}
-.caixa{
-    display: block;
-}
 label{
     display: block;
 }
 
 .tamanho{
-    width: 150px;
+    margin-bottom: 30px;
     /* Largura e altura personalizadas */
-    width: 500px;
-    height: 10px;
+    width: 640px;
+    height: 22px;
   
     /* Cor do texto */
     color: #fff;
@@ -72,6 +67,20 @@ label{
   
     /* Alinhe o texto no centro vertical e horizontalmente */
     text-align: left;
+    /*Texto de dentro do input*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
   
+/* Estilize o elemento select */
+select {
+    width: 475px; /* Largura personalizada */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda */
+    background-color: #fff; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    border-radius: 5px; /* Borda arredondada */
+}
 
+.espaco{
+    margin-top: 30px;
+}
