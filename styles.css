@@ -50,3 +50,28 @@ body{
 label{
     display: block;
 }
+
+.tamanho{
+    width: 150px;
+    /* Largura e altura personalizadas */
+    width: 500px;
+    height: 10px;
+  
+    /* Cor do texto */
+    color: #fff;
+  
+    /* Borda arredondada */
+    border-radius: 5px;
+  
+    /* Espaçamento interno (espaço entre o conteúdo e a borda) */
+    padding: 10px 20px;
+  
+    /* Remova a decoração do link (sublinhado e estilo de cursor) */
+    text-decoration: none;
+    cursor: pointer;
+  
+    /* Alinhe o texto no centro vertical e horizontalmente */
+    text-align: left;
+}
+  
+
