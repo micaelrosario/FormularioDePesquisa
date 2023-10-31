@@ -22,7 +22,7 @@ body{
     background-color: rgba(2, 31, 46, 95%) ;
     margin-left:250px;
     margin-right:250px;
-    color: rgb(255, 230, 230);
+    color: rgb(255, 255, 255);
     padding: 40px;
     border-radius: 8px;
     margin-top: 30px;
@@ -39,7 +39,7 @@ body{
 }
 /*Cor do Texto*/
 .branco{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 label{
@@ -53,7 +53,7 @@ label{
     height: 22px;
   
     /* Cor do texto */
-    color: #fff;
+    color: #220101;
   
     /* Borda arredondada */
     border-radius: 5px;
@@ -73,7 +73,8 @@ label{
   
 /* Estilize o elemento select */
 select {
-    width: 475px; /* Largura personalizada */
+    width: 685px; /* Largura personalizada */
+    height: 45px;
     padding: 10px; /* Espaçamento interno */
     border: 1px solid #ccc; /* Borda */
     background-color: #fff; /* Cor de fundo */
@@ -90,17 +91,17 @@ select {
     background-color: #3498db;
     color: #fff;
     border: 2px solid #2980b9;
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-size: 16px;
-    width: 150px;
-    text-align: center;
+    width: 100%;
     cursor: pointer; /* Adiciona uma mãozinha ao passar o mouse */
-    margin-left: 200px;
+    position: relative;
 }
 
 /* Estilizando o botão quando o mouse passa por cima */
 .button:hover {
-    background-color: #2980b9;
+    background-color: #0649b5;
+    
 }
 
 
@@ -113,6 +114,13 @@ select {
     resize: vertical;
     width: 665px;
 }
-.container{
-    text-align: center;
-}
+.container {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    display: flex;
+    flex-direction: column; /* Alinha verticalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    margin-top: 20px;
+  } 
+  
+  

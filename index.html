@@ -9,52 +9,54 @@
 <body class="fundo">
     <h1 id="title" class="branco">Formulário de Pesquisa em Tecnologia</h1>
     <p id="description" class="branco">Esse formulário receberá dados de universitários da área de TI.</p>
-    <form id="survey-form">
-        <div class="form-group">
-            <label id="name-label" class="topico" for="name">Nome:</label>
-            <input id="name" class="tamanho" type="text" placeholder="Digite o seu nome" required>
-        </div>
-        <div class="form-group">
-            <label id="email-label" class="topico" for="email">Email:</label>
-            <input id="email" class="tamanho" type="email" placeholder="Digite o seu email">
-        </div>
-        <div class="form-group">
-            <label id="number-label" class="topico" for="number">Idade:</label>
-            <input id="number" class="tamanho" type="number" min="12" max="100" placeholder="Idade">
-        </div>
-        <div class="form-group">
-            <label id="formacao" class="topico" for="dropdown">Formação Acadêmica:</label>
-            <select name="formacao" id="dropdown">
-                <option value="">Nenhum</option>
-                <option value="ensino-medio-completo">Ensino Médio Completo</option>
-                <option value="ensino-medio-incompleto">Ensino Médio Incompleto</option>
-                <option value="medio-tecnico-completo">Médio Técnico Completo</option>
-                <option value="medio-tecnico-incompleto">Médio Técnico Incompleto</option>
-                <option value="ensino-superior-completo">Ensino Superior Completo</option>
-                <option value="ensino-superior-incompleto">Ensino Superior Incompleto</option>
-                <option value="mestrado-completo">Mestrado Completo</option>
-                <option value="mestrado-incompleto">Mestrado Incompleto</option>
-                <option value="doutorado-completo">Doutorado Completo</option>
-                <option value="doutorado-incompleto">Doutorado Incompleto</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <fieldset>
-                <legend class="topico">Selecione seu curso:</legend>
-                <label for="none"><input type="radio" name="grupo" id="none"> Nenhum</label>
-                <label for="ads"><input type="radio" name="grupo" id="ads"> Análise e Desenvolvimento de Sistemas</label>
-                <label for="comput"><input type="radio" name="grupo" id="comput"> Licenciatura da Computação</label>
-                <label for="matemat"><input type="radio" name="grupo" id="matemat"> Licenciatura de Matemática</label>
-                <label for="other"><input type="radio" name="grupo" id="other"> Outro</label>
-            </fieldset>
-        </div>
-        <div class="form-group">
-            <label class="topico" for="comment">Comentários ou sugestões?</label>
-            <textarea name="comments" class="input-textarea" id="comment" cols="90" rows="10" placeholder="Digite o seu comentário aqui"></textarea>
-        </div>
-        <div class="container">
-            <button class="button" type="submit">Confirmar</button>
-        </div>
-    </form>
+    <div class="">
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" class="topico" for="name">Nome:</label>
+                <input id="name" class="tamanho" type="text" placeholder="Digite o seu nome" required>
+            </div>
+            <div class="form-group">
+                <label id="email-label" class="topico" for="email">Email:</label>
+                <input id="email" class="tamanho" type="email" placeholder="Digite o seu email">
+            </div>
+            <div class="form-group">
+                <label id="number-label" class="topico" for="number">Idade:</label>
+                <input id="number" class="tamanho" type="number" min="12" max="100" placeholder="Idade">
+            </div>
+            <div class="form-group">
+                <label id="formacao" class="topico" for="dropdown">Formação Acadêmica:</label>
+                <select name="formacao" id="dropdown">
+                    <option value="">Nenhum</option>
+                    <option value="ensino-medio-completo">Ensino Médio Completo</option>
+                    <option value="ensino-medio-incompleto">Ensino Médio Incompleto</option>
+                    <option value="medio-tecnico-completo">Médio Técnico Completo</option>
+                    <option value="medio-tecnico-incompleto">Médio Técnico Incompleto</option>
+                    <option value="ensino-superior-completo">Ensino Superior Completo</option>
+                    <option value="ensino-superior-incompleto">Ensino Superior Incompleto</option>
+                    <option value="mestrado-completo">Mestrado Completo</option>
+                    <option value="mestrado-incompleto">Mestrado Incompleto</option>
+                    <option value="doutorado-completo">Doutorado Completo</option>
+                    <option value="doutorado-incompleto">Doutorado Incompleto</option>
+                </select>
+            </div>
+            <div class="form-group espaco">
+                <fieldset>
+                    <legend class="topico">Selecione seu curso:</legend>
+                    <label for="none"><input type="radio" name="grupo" id="none"> Nenhum</label>
+                    <label for="ads"><input type="radio" name="grupo" id="ads"> Análise e Desenvolvimento de Sistemas</label>
+                    <label for="comput"><input type="radio" name="grupo" id="comput"> Licenciatura da Computação</label>
+                    <label for="matemat"><input type="radio" name="grupo" id="matemat"> Licenciatura de Matemática</label>
+                    <label for="other"><input type="radio" name="grupo" id="other"> Outro</label>
+                </fieldset>
+            </div>
+            <div class="form-group espaco">
+                <label class="topico" for="comment">Comentários ou sugestões?</label>
+                <textarea name="comments" class="input-textarea" id="comment" cols="90" rows="10" placeholder="Digite o seu comentário aqui"></textarea>
+            </div>
+            <div class="container">
+                <button class="button" type="submit">Confirmar</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
