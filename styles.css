@@ -2,8 +2,8 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
 }
-p{
-    font: 20px verdana;
+.subtitulo{
+    font: 20px tahoma;
     text-align: center;
 }
 body{
@@ -13,7 +13,7 @@ body{
 
 .topico{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -27,6 +27,7 @@ body{
     border-radius: 8px;
     margin-top: 30px;
     border-color: rgb(1, 13, 21);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Fundo do site*/
@@ -113,6 +114,8 @@ select {
     padding: 0.625rem;
     resize: vertical;
     width: 665px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 .container {
     text-align: center; /* Centraliza o conteúdo horizontalmente */
@@ -123,4 +126,17 @@ select {
     margin-top: 20px;
   } 
   
-  
+fieldset{
+    font-size: 20px;;
+}
+
+input[type="checkbox"]{
+    transform: scale(1.8);
+    margin-bottom: 20px;
+    
+}
+
+.margembutton{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

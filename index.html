@@ -8,7 +8,7 @@
 </head>
 <body class="fundo">
     <h1 id="title" class="branco">Formulário de Pesquisa em Tecnologia</h1>
-    <p id="description" class="branco">Esse formulário receberá dados de universitários da área de TI.</p>
+    <p id="description" class="branco subtitulo">Esse formulário receberá dados de universitários da área de TI.</p>
     <div class="">
         <form id="survey-form">
             <div class="form-group">
@@ -50,38 +50,40 @@
                 </fieldset>
             </div>
             <div class="form-group espaco">
-                <label class="topico" for="comment">Comentários ou sugestões?</label>
-                <textarea name="comments" class="input-textarea" id="comment" cols="90" rows="10" placeholder="Digite o seu comentário aqui"></textarea>
+                <p class="topico">Qual das Carreiras abaixo gostaria de seguir?</p>
+                <div class="espaco ">
+                    <label for="" class="margemLeft">
+                        <input name="prefer" type="checkbox" value="front-end"> Web Developer 
+                    </label>
+                    <label for="">
+                        <input name="prefer" type="checkbox" value="front-end"> Mobile App Dever"
+                    </label>
+                    <label for="">
+                        <input name="prefer" type="checkbox" value="front-end"> Database Analys
+                    </label>
+                    <label for="">
+                        <input name="prefer" type="checkbox" value="front-end"> Software Engine
+                    </label>
+                    <label for="">
+                        <input name="prefer" type="checkbox" value="front-end"> Game Developer
+                    </label>
+                    <label for="">
+                        <input name="prefer" type="checkbox" value="front-end"> Data Scientist
+                    </label>
+                    <label for="">
+                        <input name="prefer" type="checkbox" value="front-end"> DevOps Engineer
+                    </label>
+                    <label for="">
+                        <input name="prefer" type="checkbox" value="front-end"> Security Analys
+                    </label>
+                </div>
             </div>
             <div class="form-group espaco">
-                <p>Qual das Carreiras abaixo gostaria de seguir?</p>
-                <label for="">
-                    <input name="prefer" type="checkbox" value="front-end"> "Web Developer "
-                </label>
-                <label for="">
-                    <input name="prefer" type="checkbox" value="front-end"> "Mobile App Developer"
-                </label>
-                <label for="">
-                    <input name="prefer" type="checkbox" value="front-end"> "Database Analyst"
-                </label>
-                <label for="">
-                    <input name="prefer" type="checkbox" value="front-end"> "Software Engineer"
-                </label>
-                <label for="">
-                    <input name="prefer" type="checkbox" value="front-end"> "Game Developer"
-                </label>
-                <label for="">
-                    <input name="prefer" type="checkbox" value="front-end"> "Data Scientist"
-                </label>
-                <label for="">
-                    <input name="prefer" type="checkbox" value="front-end"> "DevOps Engineer "
-                </label>
-                <label for="">
-                    <input name="prefer" type="checkbox" value="front-end"> "Security Analyst"
-                </label>
+                <label class="topico" for="comment">Comentários ou sugestões?</label>
+                <textarea name="comments" class="input-textarea" id="comment" cols="90" rows="10" placeholder="Digite o seu comentário aqui..."></textarea>
             </div>
-            <div class="container">
-                <button class="button" type="submit">Confirmar</button>
+            <div class="container ">
+                <button class="button margembutton" type="submit">Confirmar</button>
             </div>
         </form>
     </div>
