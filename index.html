@@ -17,7 +17,7 @@
             </div>
             <div class="form-group">
                 <label id="email-label" class="topico" for="email">Email:</label>
-                <input id="email" class="tamanho" type="email" placeholder="Digite o seu email">
+                <input id="email" class="tamanho" type="email" placeholder="Digite o seu email" required>
             </div>
             <div class="form-group">
                 <label id="number-label" class="topico" for="number">Idade:</label>
@@ -42,11 +42,11 @@
             <div class="form-group espaco">
                 <fieldset>
                     <legend class="topico">Selecione seu curso:</legend>
-                    <label for="none"><input type="radio" name="grupo" id="none"> Nenhum</label>
-                    <label for="ads"><input type="radio" name="grupo" id="ads"> Análise e Desenvolvimento de Sistemas</label>
-                    <label for="comput"><input type="radio" name="grupo" id="comput"> Licenciatura da Computação</label>
-                    <label for="matemat"><input type="radio" name="grupo" id="matemat"> Licenciatura de Matemática</label>
-                    <label for="other"><input type="radio" name="grupo" id="other"> Outro</label>
+                    <label for="none"><input type="radio" value="nenhum" name="grupo" id="none"> Nenhum</label>
+                    <label for="ads"><input type="radio" value="ads" name="grupo" id="ads"> Análise e Desenvolvimento de Sistemas</label>
+                    <label for="comput"><input type="radio" value="comput" name="grupo" id="comput"> Licenciatura da Computação</label>
+                    <label for="matemat"><input type="radio" value="matemat" name="grupo" id="matemat"> Licenciatura de Matemática</label>
+                    <label for="other"><input type="radio" value="outro" name="grupo" id="other"> Outro</label>
                 </fieldset>
             </div>
             <div class="form-group espaco">
@@ -83,7 +83,7 @@
                 <textarea name="comments" class="input-textarea" id="comment" cols="90" rows="10" placeholder="Digite o seu comentário aqui..."></textarea>
             </div>
             <div class="container ">
-                <button class="button margembutton" type="submit">Confirmar</button>
+                <button class="button margembutton" id="submit" type="submit" type="submit">Confirmar</button>
             </div>
         </form>
     </div>
